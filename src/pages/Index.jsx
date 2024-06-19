@@ -1,4 +1,4 @@
-import { Box, Container, Heading, Text, VStack, Flex } from "@chakra-ui/react";
+import { Box, Container, Heading, Text, VStack, Flex, Image } from "@chakra-ui/react";
 
 const Index = () => {
   return (
@@ -20,10 +20,11 @@ const Index = () => {
               <Heading as="h2" size="lg">
                 All About Cats
               </Heading>
-              <Text fontSize="md">
+              <Image src="https://placekitten.com/200/300" alt="Placeholder Cat" borderRadius="md" boxShadow="md" />
+              <Text fontSize="md" mt={4}>
                 Cats are small, carnivorous mammals that are often kept as pets. They are known for their agility, playful behavior, and ability to hunt vermin. Cats have been domesticated for thousands of years and are one of the most popular pets in the world.
               </Text>
-              <Text fontSize="md">
+              <Text fontSize="md" mt={4}>
                 There are many different breeds of cats, each with its own unique characteristics and personality traits. Whether you prefer a playful kitten or a calm, older cat, there is a breed that is perfect for you.
               </Text>
             </VStack>
