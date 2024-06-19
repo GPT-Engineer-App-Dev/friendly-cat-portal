@@ -1,4 +1,4 @@
-import { Box, Container, Heading, Text, VStack, Flex } from "@chakra-ui/react";
+import { Box, Container, Heading, Text, VStack, Flex, Image } from "@chakra-ui/react";
 
 const Index = () => {
   return (
@@ -26,6 +26,7 @@ const Index = () => {
               <Text fontSize="md">
                 There are many different breeds of cats, each with its own unique characteristics and personality traits. Whether you prefer a playful kitten or a calm, older cat, there is a breed that is perfect for you.
               </Text>
+              <Image src="https://placekitten.com/200/300" alt="Cute kitten" borderRadius="md" />
             </VStack>
           </Container>
         </Box>
